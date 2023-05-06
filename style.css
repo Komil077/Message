@@ -1,0 +1,119 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(./14.\ Листва.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow-y: hidden;
+}
+
+
+.message-box {
+    border: 3px solid lime;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    padding: 0px 10px;
+    width: 400px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.message-box:hover {
+    -webkit-box-shadow: 45px 40px 26px 15px rgba(34, 60, 80, 0.4);
+    -moz-box-shadow: 45px 40px 26px 15px rgba(34, 60, 80, 0.4);
+    box-shadow: 45px 40px 26px 15px rgba(34, 60, 80, 0.4);  
+    /* font-size: 20px; */
+    width: 500px;
+    transition: 1s;
+}
+
+.chat-name {
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+.chat-name:hover {
+    color: limegreen;
+    font-size: 40px;
+    transition: 1s;
+}
+
+.message-list {
+    list-style-type: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.message-item {
+    cursor: pointer;
+}
+
+.message-list .accepted {
+    background-color: lightgreen;
+    padding: 1px 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.message-list .sent {
+    background-color: white;
+    padding: 1px 10px;
+    border-radius: 10px;
+    width: 150px;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.message-paragrif {
+    line-break: anywhere;
+}
+
+
+
+.message-form {
+    /* padding: 10px 15px; */
+}
+
+.message-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.message-text {
+    resize: none;
+    width: 280px;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 10px;
+    border: 3px solid green;
+    margin-right: 10px;
+    transition: 1s;
+}
+.message-text:hover {
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    transition: 1s;
+}
+
+.message-send {
+    background-color: green;
+    color: white;
+    width: 80px;
+    padding: 15px 0px;
+    cursor: pointer;
+    border: none;
+    transition: 1s;
+    border-radius: 10px;
+}
+.message-send:hover {
+    font-size: 15px;
+    transition: 1s;
+}
